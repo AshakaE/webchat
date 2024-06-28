@@ -1,0 +1,20 @@
+{
+    "name": "webchat",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "install-deps": "yarn run install-frontend && yarn run install-backend",
+        "install-frontend": "cd socket-client && yarn install",
+        "install-backend": "cd socket-api && yarn",
+        "dev": "concurrently \"yarn run dev:frontend\" \"yarn run dev:backend\"",
+        "dev:frontend": "cd socket-client && yarn run dev",
+        "dev:backend": "cd socket-api && yarn run start:dev"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}

@@ -1,0 +1,79 @@
+// CLIENT 
+
+# dependencies
+./socket-client/node_modules
+./socket-client//.pnp
+./socket-client/.pnp.js
+./socket-client/.yarn/install-state.gz
+./socket-client/
+# testing
+./socket-client/coverage
+./socket-client/
+./socket-client/# next.js
+./socket-client//.next/
+./socket-client//out/
+./socket-client/
+# production
+./socket-client//build
+./socket-client/
+./socket-client/# misc
+./socket-client/.DS_Store
+./socket-client/*.pem
+./socket-client/
+# debug
+./socket-client/npm-debug.log*
+./socket-client/yarn-debug.log*
+./socket-client/yarn-error.log*
+./socket-client/
+./socket-client/# local env files
+./socket-client/.env*.local
+./socket-client/
+# vercel
+./socket-client/.vercel
+./socket-client/
+./socket-client/# typescript
+./socket-client/*.tsbuildinfo
+./socket-client/next-env.d.ts
+/socket-client/.env
+node_modules
+
+
+// API
+
+# compiled output
+/socket-api/dist
+./socket-api/node_modules
+
+# Logs
+./scoket-api/logs
+./scoket-api/*.log
+./scoket-api/npm-debug.log*
+./scoket-api/pnpm-debug.log*
+./scoket-api/yarn-debug.log*
+./scoket-api/yarn-error.log*
+./scoket-api/lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+./socket-api/coverage
+./socket-api/.nyc_output
+
+# IDEs and editors
+./soket-api/.idea
+./soket-api/.project
+./soket-api/.classpath
+./soket-api/.c9/
+./soket-api/*.launch
+./soket-api/.settings/
+./soket-api/*.sublime-workspace
+
+# IDE - VSCode
+./socket-api/.vscode/*
+./socket-api/!.vscode/settings.json
+./socket-api/!.vscode/tasks.json
+./socket-api/!.vscode/launch.json
+./socket-api/!.vscode/extensions.json
+/socket-api/.env
+/socket-api/uploads
